@@ -1,0 +1,32 @@
+name: CI/CD
+
+on:
+  push:
+    branches: [main, preview, feat/**]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install app dependencies
+        run: cd app && npm ci
+
+      - name: Build static site
+        run: cd app && npm run generate
+
+      - name: Install infra dependencies
+        run: cd infra && npm ci
+
+      - name: CDK synth
+        run: cd infra && npx cdk synth
+
+      # TODO: add OIDC role + auto-deploy on preview/main (see issue #5)
