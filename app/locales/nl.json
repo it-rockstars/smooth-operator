@@ -1,0 +1,65 @@
+{
+  "nav": {
+    "services": "Services",
+    "operators": "Operators",
+    "pricing": "Prijzen",
+    "contact": "Contact",
+    "legal": "Juridisch"
+  },
+  "hero": {
+    "headline": "Brandt er iets?",
+    "subheadline": "On-demand technical firefighting voor startups.",
+    "description": "Een Smooth Operator reageert binnen 30 minuten — en lost je K8s-, AWS- of CI/CD-probleem op.",
+    "ctaPrimary": "Contacteer een Operator",
+    "ctaSecondary": "@smoothoperator_bot op Telegram",
+    "trust": "Geen verkoopgesprek. Geen lang onboarding. Zeg wat er brandt."
+  },
+  "how": {
+    "title": "Hoe het werkt",
+    "step1": { "title": "Wat brandt?", "desc": "Korte beschrijving + logs/stacktrace + contact." },
+    "step2": { "title": "Operator reageert", "desc": "Binnen 30 min — mens, niet alleen bot." },
+    "step3": { "title": "Probleem opgelost", "desc": "Fix + documentatie + acceptatiecriteria voldaan." }
+  },
+  "services": {
+    "title": "Waarmee we helpen",
+    "bugfinder": { "title": "Bugfinder", "desc": "“We weten niet waarom het niet draait.”", "detail": "Diagnose + oorzaakanalyse" },
+    "bugfixer": { "title": "Bugfixer", "desc": "“We weten het, maar kunnen het niet fixen.”", "detail": "Fix + test + documentatie" },
+    "kickstarter": { "title": "Kickstarter", "desc": "“We hebben K8s/CI/CD/monitoring vanaf nul nodig.”", "detail": "Opzetten + overdracht" },
+    "enabler": { "title": "Enabler", "desc": "“Ons team moet dit zelf kunnen.”", "detail": "Coaching + pairing" },
+    "healthcheck": { "title": "Health Check", "desc": "“We weten niet wat we niet weten.”", "detail": "Audit + prioritering" }
+  },
+  "operators": {
+    "title": "Jouw Operators",
+    "fahad": { "name": "Fahad", "role": "K8s · AWS · Debug", "bio": "Multi-processor, 25, eerste Smooth Operator." },
+    "flo": { "name": "Flo", "role": "QA · Playwright · Automation", "bio": "Test- & automationspecialist." },
+    "rainer": { "name": "Rainer", "role": "Escalation · Architectuur", "bio": "Laatste instantie & kwaliteitszegel." }
+  },
+  "pricing": {
+    "title": "Credits laden",
+    "subtitle": "Geen verborgen kosten. Credits garanderen de 30-min-garantie.",
+    "starter": { "name": "Starter", "credits": "1 Credit", "price": "~€299", "desc": "Voor incidentele bugfixes" },
+    "growth": { "name": "Growth", "credits": "5 Credits", "price": "~€1.249", "desc": "Incl. 30-min-garantie", "badge": "Populair" },
+    "scale": { "name": "Scale", "credits": "15 Credits", "price": "~€3.499", "desc": "Met maandelijkse Enabler-slot" },
+    "cta": "Credits kopen"
+  },
+  "proof": {
+    "title": "Proof of Value",
+    "desc": "Elke missie eindigt met een rapport. Voldane acceptatiecriteria = stijgende operator-reputatie."
+  },
+  "different": {
+    "title": "Waarom wij anders zijn",
+    "qa": { "title": "QA is King", "desc": "Elke fix wordt getest en gedocumenteerd. Geen half werk." },
+    "requirements": { "title": "Duidelijke Eisen", "desc": "We dwingen de klant het probleem precies te beschrijven — voordat we beginnen." },
+    "ai": { "title": "AI-Augmented", "desc": "Onze operators gebruiken Claude Code & Agents — sneller dan klassieke freelancers." }
+  },
+  "contact": {
+    "title": "Bereikbaarheid",
+    "chat": { "title": "Website-Chat", "desc": "Direct op de site — kwalificatie in 2 minuten." },
+    "telegram": { "title": "Telegram", "desc": "@smoothoperator_bot — bestelling, updates, bestanden." },
+    "email": { "title": "E-Mail", "desc": "Voor grotere aanvragen en facturen." }
+  },
+  "footer": {
+    "copyright": "© 2026 IT-Rockstars Services S.L. Alle rechten voorbehouden.",
+    "legal": "Juridisch · Privacy · Algemene Voorwaarden"
+  }
+}

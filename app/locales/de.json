@@ -1,0 +1,65 @@
+{
+  "nav": {
+    "services": "Services",
+    "operators": "Operatoren",
+    "pricing": "Preise",
+    "contact": "Kontakt",
+    "legal": "Impressum"
+  },
+  "hero": {
+    "headline": "Brennt was?",
+    "subheadline": "On-Demand Technical Firefighting für Startups.",
+    "description": "Ein Smooth Operator antwortet in 30 Minuten — und fixt dein K8s-, AWS- oder CI/CD-Problem.",
+    "ctaPrimary": "Operator kontaktieren",
+    "ctaSecondary": "@smoothoperator_bot auf Telegram",
+    "trust": "Kein Verkaufsgespräch. Kein langes Onboarding. Sag, was brennt."
+  },
+  "how": {
+    "title": "So funktioniert's",
+    "step1": { "title": "Was brennt?", "desc": "Kurze Beschreibung + Logs/Stacktrace + Kontakt." },
+    "step2": { "title": "Operator antwortet", "desc": "Innerhalb 30 Min — mit Mensch, nicht nur Bot." },
+    "step3": { "title": "Problem gelöst", "desc": "Fix + Dokumentation + Abnahmekriterien erfüllt." }
+  },
+  "services": {
+    "title": "Womit wir helfen",
+    "bugfinder": { "title": "Bugfinder", "desc": "„Wir wissen nicht, warum es nicht läuft.", "detail": "Diagnose + Ursachenanalyse" },
+    "bugfixer": { "title": "Bugfixer", "desc": "„Wir wissen es, können es aber nicht fixen.", "detail": "Fix + Test + Dokumentation" },
+    "kickstarter": { "title": "Kickstarter", "desc": "„Wir brauchen K8s/CI/CD/Monitoring von Null.", "detail": "Aufsetzen + Handover" },
+    "enabler": { "title": "Enabler", "desc": "„Unser Team soll es selbst können.", "detail": "Coaching + Pairing" },
+    "healthcheck": { "title": "Health Check", "desc": "„Wir wissen nicht, was wir nicht wissen.", "detail": "Audit + Priorisierung" }
+  },
+  "operators": {
+    "title": "Deine Operatoren",
+    "fahad": { "name": "Fahad", "role": "K8s · AWS · Debug", "bio": "Multi-Processor, 25, erster Smooth Operator." },
+    "flo": { "name": "Flo", "role": "QA · Playwright · Automation", "bio": "Test- & Automations-Spezialist." },
+    "rainer": { "name": "Rainer", "role": "Escalation · Architektur", "bio": "Letzte Instanz & Qualitätssiegel." }
+  },
+  "pricing": {
+    "title": "Credits laden",
+    "subtitle": "Keine versteckten Kosten. Credits sichern die 30-Min-Garantie.",
+    "starter": { "name": "Starter", "credits": "1 Credit", "price": "ca. €299", "desc": "Für gelegentliche Bugfixes" },
+    "growth": { "name": "Growth", "credits": "5 Credits", "price": "ca. €1.249", "desc": "Inkl. 30-Min-Garantie", "badge": "Beliebt" },
+    "scale": { "name": "Scale", "credits": "15 Credits", "price": "ca. €3.499", "desc": "Mit monatlichem Enabler-Slot" },
+    "cta": "Credits kaufen"
+  },
+  "proof": {
+    "title": "Proof of Value",
+    "desc": "Jede Mission endet mit einem Report. Erfüllte Abnahmekriterien = steigende Operator-Reputation."
+  },
+  "different": {
+    "title": "Warum wir anders sind",
+    "qa": { "title": "QA ist King", "desc": "Jeder Fix wird getestet und dokumentiert. Keine Halbheiten." },
+    "requirements": { "title": "Klare Anforderungen", "desc": "Wir zwingen den Kunden, sein Problem präzise zu beschreiben — bevor wir anfangen." },
+    "ai": { "title": "AI-Augmented", "desc": "Unsere Operatoren nutzen Claude Code & Agents — schneller als klassische Freelancer." }
+  },
+  "contact": {
+    "title": "Erreichbarkeit",
+    "chat": { "title": "Website-Chat", "desc": "Direkt auf der Seite — Qualifizierung in 2 Minuten." },
+    "telegram": { "title": "Telegram", "desc": "@smoothoperator_bot — Bestellung, Updates, Dateien." },
+    "email": { "title": "E-Mail", "desc": "Für größere Anfragen und Rechnungen." }
+  },
+  "footer": {
+    "copyright": "© 2026 IT-Rockstars Services S.L. Alle Rechte vorbehalten.",
+    "legal": "Impressum · Datenschutz · AGB"
+  }
+}
