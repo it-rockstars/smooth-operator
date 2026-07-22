@@ -11,6 +11,7 @@
     "subheadline": "On-Demand Technical Firefighting für Startups.",
     "description": "Ein Smooth Operator antwortet in 30 Minuten — und fixt dein K8s-, AWS- oder CI/CD-Problem.",
     "ctaPrimary": "Operator kontaktieren",
+    "ctaChat": "Erstmal selbst checken",
     "ctaSecondary": "@smoothoperator_bot auf Telegram",
     "trust": "Kein Verkaufsgespräch. Kein langes Onboarding. Sag, was brennt."
   },
@@ -57,6 +58,38 @@
     "chat": { "title": "Website-Chat", "desc": "Direkt auf der Seite — Qualifizierung in 2 Minuten." },
     "telegram": { "title": "Telegram", "desc": "@smoothoperator_bot — Bestellung, Updates, Dateien." },
     "email": { "title": "E-Mail", "desc": "Für größere Anfragen und Rechnungen." }
+  },
+  "chatbot": {
+    "title": "Operator-Assistent",
+    "subtitle": "Anonyme Selbsthilfe",
+    "placeholder": "Frag zu Preisen, Services, Datenschutz...",
+    "send": "Senden",
+    "reset": "Zurücksetzen",
+    "disclaimer": "Dieser Bot ist für anonyme Fragen. Für individuelle Fälle mit sensiblen Daten leiten wir dich in den geschützten Bereich weiter.",
+    "ctaOnboarding": "Sicheres Onboarding starten"
+  },
+  "chatbotPage": {
+    "headline": "Womit können wir helfen?",
+    "description": "Stelle anonyme Fragen zu Smooth Operator. Für individuelle Fälle mit Logs oder Credentials leiten wir dich in den geschützten Bereich weiter.",
+    "hint": "Tipp: Frag nach Preisen, Services, Reaktionszeiten oder Datenschutz.",
+    "back": "Zurück zur Startseite"
+  },
+  "onboarding": {
+    "headline": "Geschützter Bereich",
+    "description": "Bevor wir individuelle Fälle bearbeiten können, brauchen wir einen sicheren Account und eine kurze NDA.",
+    "step1": { "title": "Account anlegen", "desc": "E-Mail + Passwort, verifiziert." },
+    "step2": { "title": "AGB akzeptieren", "desc": "Klare Spielregeln für beide Seiten." },
+    "step3": { "title": "Kurze NDA", "desc": "Maximal 1 Seite, keine Juristen-Sprache." },
+    "step4": { "title": "Datensicherheit", "desc": "Bestätigung: EU/ITR-Infrastruktur, Bedrock-only, kein Export." },
+    "security": {
+      "title": "Datensicherheitsversprechen",
+      "item1": "Alle Daten bleiben in eu-central-1.",
+      "item2": "Operator-AI läuft ausschließlich in unserem ITR-Rechenzentrum (Bedrock).",
+      "item3": "Keine Weitergabe von Kundendaten an Dritte oder Drittstaaten."
+    },
+    "ctaDisabled": "Onboarding starten",
+    "comingSoon": "Onboarding-Flow kommt als nächster Schritt.",
+    "back": "Zurück zum Chat"
   },
   "footer": {
     "copyright": "© 2026 IT-Rockstars Services S.L. Alle Rechte vorbehalten.",

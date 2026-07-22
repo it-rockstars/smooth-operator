@@ -20,14 +20,12 @@
           >
             {{ t('hero.ctaPrimary') }}
           </a>
-          <a
-            href="https://t.me/smoothoperator_bot"
-            target="_blank"
-            rel="noopener"
+          <nuxt-link
+            to="/chat"
             class="bg-rock-800 hover:bg-rock-700 text-white font-semibold px-8 py-4 rounded-lg transition"
           >
-            {{ t('hero.ctaSecondary') }}
-          </a>
+            {{ t('hero.ctaChat') }}
+          </nuxt-link>
         </div>
         <p class="text-sm text-rock-500">{{ t('hero.trust') }}</p>
       </div>

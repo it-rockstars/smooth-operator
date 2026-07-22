@@ -11,6 +11,7 @@
     "subheadline": "On-demand technical firefighting voor startups.",
     "description": "Een Smooth Operator reageert binnen 30 minuten — en lost je K8s-, AWS- of CI/CD-probleem op.",
     "ctaPrimary": "Contacteer een Operator",
+    "ctaChat": "Check eerst zelf",
     "ctaSecondary": "@smoothoperator_bot op Telegram",
     "trust": "Geen verkoopgesprek. Geen lang onboarding. Zeg wat er brandt."
   },
@@ -57,6 +58,38 @@
     "chat": { "title": "Website-Chat", "desc": "Direct op de site — kwalificatie in 2 minuten." },
     "telegram": { "title": "Telegram", "desc": "@smoothoperator_bot — bestelling, updates, bestanden." },
     "email": { "title": "E-Mail", "desc": "Voor grotere aanvragen en facturen." }
+  },
+  "chatbot": {
+    "title": "Operator-Assistent",
+    "subtitle": "Anonieme Zelfhulp",
+    "placeholder": "Vraag naar prijzen, services, privacy...",
+    "send": "Verstuur",
+    "reset": "Reset",
+    "disclaimer": "Deze bot is voor anonieme vragen. Bij individuele gevallen met gevoelige data leiden we je naar het beschermde gedeelte.",
+    "ctaOnboarding": "Start veilige onboarding"
+  },
+  "chatbotPage": {
+    "headline": "Waarmee kunnen we helpen?",
+    "description": "Stel anonieme vragen over Smooth Operator. Bij individuele gevallen met logs of credentials leiden we je naar het beschermde gedeelte.",
+    "hint": "Tip: vraag naar prijzen, services, reactietijden of privacy.",
+    "back": "Terug naar homepage"
+  },
+  "onboarding": {
+    "headline": "Beschermd Gedeelte",
+    "description": "Voordat we individuele gevallen kunnen behandelen, hebben we een veilig account en een korte NDA nodig.",
+    "step1": { "title": "Account aanmaken", "desc": "E-mail + wachtwoord, geverifieerd." },
+    "step2": { "title": "Voorwaarden accepteren", "desc": "Duidelijke regels voor beide kanten." },
+    "step3": { "title": "Korte NDA", "desc": "Max 1 pagina, geen juridisch jargon." },
+    "step4": { "title": "Data-veiligheid", "desc": "Bevestiging: EU/ITR-infrastructuur, Bedrock-only, geen export." },
+    "security": {
+      "title": "Data-Veiligheidsgarantie",
+      "item1": "Alle data blijft in eu-central-1.",
+      "item2": "Operator-AI draait uitsluitend in ons ITR-datacenter (Bedrock).",
+      "item3": "Geen delen van klantengegevens met derden of derde landen."
+    },
+    "ctaDisabled": "Onboarding starten",
+    "comingSoon": "Onboarding-flow komt als volgende stap.",
+    "back": "Terug naar chat"
   },
   "footer": {
     "copyright": "© 2026 IT-Rockstars Services S.L. Alle rechten voorbehouden.",

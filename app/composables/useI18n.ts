@@ -1,12 +1,10 @@
-import de from '~/locales/de.json'
 import en from '~/locales/en.json'
-import nl from '~/locales/nl.json'
 
-const messages = { de, en, nl } as const
+const messages = { en } as const
 type Locale = keyof typeof messages
 
 export function useI18n() {
-  const locale = useState<Locale>('locale', () => 'de')
+  const locale = useState<Locale>('locale', () => 'en')
 
   const t = (key: string): string => {
     const keys = key.split('.')
@@ -19,18 +17,10 @@ export function useI18n() {
 
   const setLocale = (l: Locale) => {
     locale.value = l
-    if (process.client) {
-      localStorage.setItem('so-locale', l)
-    }
   }
 
   const initLocale = () => {
-    if (process.client) {
-      const saved = localStorage.getItem('so-locale')
-      if (saved && saved in messages) {
-        locale.value = saved as Locale
-      }
-    }
+    // English-only for now
   }
 
   return {
